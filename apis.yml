@@ -1,7 +1,13 @@
 aid: ilovewoof
 name: ilovewoof
-description: ilovewoof is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ilovewoof (ilovewoof.com) is a UK-focused pet-care and lifestyle content publication
+  covering companion animals and wildlife. It publishes pet-care guides, behavioral insights,
+  health articles, rescue stories, and animal-world news across four sections — Cats, Dogs, News,
+  and Other pets (small and exotic animals) — with health and medical content reviewed by licensed
+  veterinary professionals, and offers a weekly email newsletter. It is an editorial content site,
+  not an API provider; no public API, developer documentation, SDKs, or machine-readable interface
+  was found during enrichment. Surfaced as a qiming portfolio lead and profiled in the API Evangelist
+  network for completeness.
 url: https://raw.githubusercontent.com/api-evangelist/ilovewoof/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,29 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://ilovewoof.com/logo.svg
 tags:
 - Company
+- Pets
+- Pet Care
+- Animals
+- Content Publishing
+- Media
+- Lifestyle
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ilovewoof-domain-security.yml
 - type: Website
   url: https://ilovewoof.com
+- type: Support
+  url: https://ilovewoof.com/contact/
+- type: TermsOfService
+  url: https://ilovewoof.com/legal-notice/
+- type: Blog
+  url: https://ilovewoof.com/news/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
